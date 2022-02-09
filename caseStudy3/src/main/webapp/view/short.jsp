@@ -208,7 +208,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="page-title text-center">
-                        <h2>Short</h2>
+                        <h2>Shorts</h2>
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@
                                     </li>
                                     <!-- Single Item -->
                                     <li data-toggle="collapse" data-target="#shoes" class="collapsed">
-                                        <a href="#">shoes</a>
+                                        <a href="shoes.jsp">shoes</a>
 <%--                                        <ul class="sub-menu collapse" id="shoes">--%>
 <%--                                            <li><a href="#">All</a></li>--%>
 <%--                                            <li><a href="#">Bodysuits</a></li>--%>

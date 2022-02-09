@@ -27,7 +27,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.jsp"><img src="img/core-img/error-fashion-icon1.png" width="174" height="50" alt=""></a>
+                <a class="nav-brand" href="index.jsp"><img src="img/core-img/error-fashion-icon1.png" width="140" height="70" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -43,48 +43,48 @@
                         <ul>
                             <li><a href="#">Shop</a>
                                 <div class="megamenu">
-                                    <ul class="single-mega cn-col-4">
-                                        <li class="title">Women's Collection</li>
-                                        <li><a href="shop.jsp">Dresses</a></li>
-                                        <li><a href="shop.jsp">Blouses &amp; Shirts</a></li>
-                                        <li><a href="shop.jsp">T-shirts</a></li>
-                                        <li><a href="shop.jsp">Rompers</a></li>
-                                        <li><a href="shop.jsp">Bras &amp; Panties</a></li>
-                                    </ul>
+<%--                                    <ul class="single-mega cn-col-4">--%>
+<%--                                        <li class="title">Women's Collection</li>--%>
+<%--                                        <li><a href="shop.jsp">Dresses</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Blouses &amp; Shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">T-shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Rompers</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Bras &amp; Panties</a></li>--%>
+<%--                                    </ul>--%>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Men's Collection</li>
-                                        <li><a href="shop.jsp">T-Shirts</a></li>
-                                        <li><a href="shop.jsp">Polo</a></li>
-                                        <li><a href="shop.jsp">Shirts</a></li>
-                                        <li><a href="shop.jsp">Jackets</a></li>
-                                        <li><a href="shop.jsp">Trench</a></li>
+                                        <li><a href="tshirt.jsp">T-Shirts</a></li>
+                                        <li><a href="pants.jsp">Pants</a></li>
+                                        <li><a href="short.jsp">Shorts</a></li>
+                                        <li><a href="shoes.jsp">Shoes</a></li>
+<%--                                        <li><a href="shop.jsp">Trench</a></li>--%>
                                     </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li class="title">Kid's Collection</li>
-                                        <li><a href="shop.jsp">Dresses</a></li>
-                                        <li><a href="shop.jsp">Shirts</a></li>
-                                        <li><a href="shop.jsp">T-shirts</a></li>
-                                        <li><a href="shop.jsp">Jackets</a></li>
-                                        <li><a href="shop.jsp">Trench</a></li>
-                                    </ul>
+<%--                                    <ul class="single-mega cn-col-4">--%>
+<%--                                        <li class="title">Kid's Collection</li>--%>
+<%--                                        <li><a href="shop.jsp">Dresses</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">T-shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Jackets</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Trench</a></li>--%>
+<%--                                    </ul>--%>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/bg-img/bg-6.jpg" alt="">
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="#">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="index.jsp">Home</a></li>
-                                    <li><a href="shop.jsp">Shop</a></li>
-                                    <li><a href="single-product-details.jsp">Product Details</a></li>
-                                    <li><a href="checkout.jsp">Checkout</a></li>
-                                    <li><a href="blog.jsp">Blog</a></li>
-                                    <li><a href="single-blog.jsp">Single Blog</a></li>
-                                    <li><a href="regular-page.jsp">Regular Page</a></li>
-                                    <li><a href="contact.jsp">Contact</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog.jsp">Blog</a></li>
+<%--                            <li><a href="#">Pages</a>--%>
+<%--                                <ul class="dropdown">--%>
+<%--                                    <li><a href="index.jsp">Home</a></li>--%>
+<%--                                    <li><a href="shop.jsp">Shop</a></li>--%>
+<%--                                    <li><a href="single-product-details.jsp">Product Details</a></li>--%>
+<%--                                    <li><a href="checkout.jsp">Checkout</a></li>--%>
+<%--                                    <li><a href="blog.jsp">Blog</a></li>--%>
+<%--                                    <li><a href="single-blog.jsp">Single Blog</a></li>--%>
+<%--                                    <li><a href="regular-page.jsp">Regular Page</a></li>--%>
+<%--                                    <li><a href="contact.jsp">Contact</a></li>--%>
+<%--                                </ul>--%>
+<%--                            </li>--%>
+<%--                            <li><a href="blog.jsp">Blog</a></li>--%>
                             <li><a href="contact.jsp">Contact</a></li>
                         </ul>
                     </div>
@@ -113,7 +113,7 @@
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>0</span></a>
+                    <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
                 </div>
             </div>
 
@@ -427,32 +427,32 @@
     <!-- ##### New Arrivals Area End ##### -->
 
     <!-- ##### Brands Area Start ##### -->
-    <div class="brands-area d-flex align-items-center justify-content-between">
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand1.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand2.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand3.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand4.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand5.png" alt="">
-        </div>
-        <!-- Brand Logo -->
-        <div class="single-brands-logo">
-            <img src="img/core-img/brand6.png" alt="">
-        </div>
-    </div>
+<%--    <div class="brands-area d-flex align-items-center justify-content-between">--%>
+<%--        <!-- Brand Logo -->--%>
+<%--        <div class="single-brands-logo">--%>
+<%--            <img src="img/core-img/brand1.png" alt="">--%>
+<%--        </div>--%>
+<%--        <!-- Brand Logo -->--%>
+<%--        <div class="single-brands-logo">--%>
+<%--            <img src="img/core-img/brand2.png" alt="">--%>
+<%--        </div>--%>
+<%--        <!-- Brand Logo -->--%>
+<%--        <div class="single-brands-logo">--%>
+<%--            <img src="img/core-img/brand3.png" alt="">--%>
+<%--        </div>--%>
+<%--        <!-- Brand Logo -->--%>
+<%--        <div class="single-brands-logo">--%>
+<%--            <img src="img/core-img/brand4.png" alt="">--%>
+<%--        </div>--%>
+<%--        <!-- Brand Logo -->--%>
+<%--        <div class="single-brands-logo">--%>
+<%--            <img src="img/core-img/brand5.png" alt="">--%>
+<%--        </div>--%>
+<%--        <!-- Brand Logo -->--%>
+<%--        <div class="single-brands-logo">--%>
+<%--            <img src="img/core-img/brand6.png" alt="">--%>
+<%--        </div>--%>
+<%--    </div>--%>
     <!-- ##### Brands Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
@@ -464,13 +464,13 @@
                     <div class="single_widget_area d-flex mb-30">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="#"><img src="img/core-img/error-fashion-icon1.png" width="100" height="50" alt=""></a>
                         </div>
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
                                 <li><a href="shop.jsp">Shop</a></li>
-                                <li><a href="blog.jsp">Blog</a></li>
+<%--                                <li><a href="blog.jsp">Blog</a></li>--%>
                                 <li><a href="contact.jsp">Contact</a></li>
                             </ul>
                         </div>

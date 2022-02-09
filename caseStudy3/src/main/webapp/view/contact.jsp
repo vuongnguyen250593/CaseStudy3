@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>Essence - Fashion Ecommerce Template</title>
+    <title>ERROR - FASHION</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/error_icon1.png">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="css/core-style.css">
@@ -27,7 +27,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.jsp"><img src="img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="index.jsp"><img src="img/core-img/error-fashion-icon1.png" width="140" height="70" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -43,48 +43,48 @@
                         <ul>
                             <li><a href="#">Shop</a>
                                 <div class="megamenu">
-                                    <ul class="single-mega cn-col-4">
-                                        <li class="title">Women's Collection</li>
-                                        <li><a href="shop.jsp">Dresses</a></li>
-                                        <li><a href="shop.jsp">Blouses &amp; Shirts</a></li>
-                                        <li><a href="shop.jsp">T-shirts</a></li>
-                                        <li><a href="shop.jsp">Rompers</a></li>
-                                        <li><a href="shop.jsp">Bras &amp; Panties</a></li>
-                                    </ul>
+<%--                                    <ul class="single-mega cn-col-4">--%>
+<%--                                        <li class="title">Women's Collection</li>--%>
+<%--                                        <li><a href="shop.jsp">Dresses</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Blouses &amp; Shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">T-shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Rompers</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Bras &amp; Panties</a></li>--%>
+<%--                                    </ul>--%>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Men's Collection</li>
-                                        <li><a href="shop.jsp">T-Shirts</a></li>
-                                        <li><a href="shop.jsp">Polo</a></li>
-                                        <li><a href="shop.jsp">Shirts</a></li>
-                                        <li><a href="shop.jsp">Jackets</a></li>
-                                        <li><a href="shop.jsp">Trench</a></li>
+                                        <li><a href="tshirt.jsp">T-Shirts</a></li>
+                                        <li><a href="pants.jsp">Pants</a></li>
+                                        <li><a href="short.jsp">Shorts</a></li>
+                                        <li><a href="shoes.jsp">Shoes</a></li>
+<%--                                        <li><a href="shop.jsp">Trench</a></li>--%>
                                     </ul>
-                                    <ul class="single-mega cn-col-4">
-                                        <li class="title">Kid's Collection</li>
-                                        <li><a href="shop.jsp">Dresses</a></li>
-                                        <li><a href="shop.jsp">Shirts</a></li>
-                                        <li><a href="shop.jsp">T-shirts</a></li>
-                                        <li><a href="shop.jsp">Jackets</a></li>
-                                        <li><a href="shop.jsp">Trench</a></li>
-                                    </ul>
+<%--                                    <ul class="single-mega cn-col-4">--%>
+<%--                                        <li class="title">Kid's Collection</li>--%>
+<%--                                        <li><a href="shop.jsp">Dresses</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">T-shirts</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Jackets</a></li>--%>
+<%--                                        <li><a href="shop.jsp">Trench</a></li>--%>
+<%--                                    </ul>--%>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/bg-img/bg-6.jpg" alt="">
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="#">Pages</a>
-                                <ul class="dropdown">
-                                    <li><a href="index.jsp">Home</a></li>
-                                    <li><a href="shop.jsp">Shop</a></li>
-                                    <li><a href="single-product-details.jsp">Product Details</a></li>
-                                    <li><a href="checkout.jsp">Checkout</a></li>
-                                    <li><a href="blog.jsp">Blog</a></li>
-                                    <li><a href="single-blog.jsp">Single Blog</a></li>
-                                    <li><a href="regular-page.jsp">Regular Page</a></li>
-                                    <li><a href="contact.jsp">Contact</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog.jsp">Blog</a></li>
+<%--                            <li><a href="#">Pages</a>--%>
+<%--                                <ul class="dropdown">--%>
+<%--                                    <li><a href="index.jsp">Home</a></li>--%>
+<%--                                    <li><a href="shop.jsp">Shop</a></li>--%>
+<%--                                    <li><a href="single-product-details.jsp">Product Details</a></li>--%>
+<%--                                    <li><a href="checkout.jsp">Checkout</a></li>--%>
+<%--                                    <li><a href="blog.jsp">Blog</a></li>--%>
+<%--                                    <li><a href="single-blog.jsp">Single Blog</a></li>--%>
+<%--                                    <li><a href="regular-page.jsp">Regular Page</a></li>--%>
+<%--                                    <li><a href="contact.jsp">Contact</a></li>--%>
+<%--                                </ul>--%>
+<%--                            </li>--%>
+<%--                            <li><a href="blog.jsp">Blog</a></li>--%>
                             <li><a href="contact.jsp">Contact</a></li>
                         </ul>
                     </div>
@@ -211,12 +211,12 @@
 
         <div class="contact-info">
             <h2>How to Find Us</h2>
-            <p>Mauris viverra cursus ante laoreet eleifend. Donec vel fringilla ante. Aenean finibus velit id urna vehicula, nec maximus est sollicitudin.</p>
+            <p>Go Straight ahead, turn left, turn right</p>
 
             <div class="contact-address mt-50">
-                <p><span>address:</span> 10 Suffolk st Soho, London, UK</p>
-                <p><span>telephone:</span> +12 34 567 890</p>
-                <p><a href="mailto:contact@essence.com">contact@essence.com</a></p>
+                <p><span>address:</span> CodyGym, Mon City, Ha Noi</p>
+                <p><span>telephone:</span> +84 001011010 </p>
+                <p><a href="mailto:contact@essence.com">errorfashion@error.com</a></p>
             </div>
         </div>
 
@@ -231,13 +231,13 @@
                     <div class="single_widget_area d-flex mb-30">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="#"><img src="img/core-img/error-fashion-icon1.png" width="100" height="50" alt=""></a>
                         </div>
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
                                 <li><a href="shop.jsp">Shop</a></li>
-                                <li><a href="blog.jsp">Blog</a></li>
+<%--                                <li><a href="blog.jsp">Blog</a></li>--%>
                                 <li><a href="contact.jsp">Contact</a></li>
                             </ul>
                         </div>
