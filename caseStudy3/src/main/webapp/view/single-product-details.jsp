@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,7 +29,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.jsp"><img src="img/core-img/error-fashion-icon1.png" width="140" height="70" alt=""></a>
+                <a class="nav-brand" href="/home"><img src="img/core-img/error-fashion-icon1.png" width="140" height="70" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -53,10 +55,8 @@
 <%--                                    </ul>--%>
                                     <ul class="single-mega cn-col-4">
                                         <li class="title">Men's Collection</li>
-                                        <li><a href="tshirt.jsp">T-Shirts</a></li>
-                                        <li><a href="pants.jsp">Pants</a></li>
-                                        <li><a href="short.jsp">Shorts</a></li>
-                                        <li><a href="shoes.jsp">Shoes</a></li>
+                                        <c:forEach items = "${categories}" var = "c">
+                                            <li><a href="category?categoryID=${c.id}">${c.name}</a></li></c:forEach>
                                     </ul>
 <%--                                    <ul class="single-mega cn-col-4">--%>
 <%--                                        <li class="title">Kid's Collection</li>--%>
@@ -206,21 +206,17 @@
 
         <!-- Single Product Thumb -->
         <div class="single_product_thumb clearfix">
-            <div class="product_thumbnail_slides owl-carousel">
-                <img src="img/product-img/product-big-1.jpg" alt="">
-                <img src="img/product-img/product-big-2.jpg" alt="">
-                <img src="img/product-img/product-big-3.jpg" alt="">
-            </div>
+                <img src="${productDetail.getThumbnail()}" alt="">
         </div>
 
         <!-- Single Product Description -->
         <div class="single_product_desc clearfix">
-            <span>mango</span>
+            <span>Error Fashion</span>
             <a href="cart.html">
-                <h2>One Shoulder Glitter Midi Dress</h2>
+                <h2>${productDetail.title}</h2>
             </a>
-            <p class="product-price"><span class="old-price">$65.00</span> $49.00</p>
-            <p class="product-desc">Mauris viverra cursus ante laoreet eleifend. Donec vel fringilla ante. Aenean finibus velit id urna vehicula, nec maximus est sollicitudin.</p>
+            <p class="product-price"><span class="old-price">${productDetail.price} VND</span> ${productDetail.discount} VND</p>
+            <p class="product-desc">${productDetail.description}</p>
 
             <!-- Form -->
             <form class="cart-form clearfix" method="post">
